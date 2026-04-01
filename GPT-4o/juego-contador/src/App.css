@@ -1,0 +1,45 @@
+/* Estilos para el Juego Contador */
+
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.iniciar-juego {
+  background-color: #008CBA; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.clickeame {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.reiniciar-juego {
+  background-color: #f44336; /* Rojo */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
